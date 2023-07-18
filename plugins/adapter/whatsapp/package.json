@@ -1,0 +1,49 @@
+{
+  "name": "@koishijs/plugin-adapter-whatsapp",
+  "description": "WhatsApp Adapter for Koishi",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "module": "lib/index.mjs",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "author": "LittleC <i@ltlec.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satorijs/satori.git",
+    "directory": "adapters/whatsapp"
+  },
+  "bugs": {
+    "url": "https://github.com/satorijs/satori/issues"
+  },
+  "homepage": "https://koishi.chat/plugins/adapter/whatsapp.html",
+  "keywords": [
+    "bot",
+    "whatsapp",
+    "chatbot",
+    "koishi"
+  ],
+  "koishi": {
+    "browser": true,
+    "description": {
+      "en": "WhatsApp Adapter",
+      "zh": "WhatsApp 适配器"
+    },
+    "service": {
+      "implements": [
+        "adapter"
+      ]
+    }
+  },
+  "peerDependencies": {
+    "koishi": "^4.13.7"
+  },
+  "devDependencies": {
+    "koishi": "^4.13.7"
+  },
+  "dependencies": {
+    "@satorijs/adapter-whatsapp": "^1.0.0"
+  }
+}
