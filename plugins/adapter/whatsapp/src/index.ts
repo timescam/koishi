@@ -1,6 +1,6 @@
 // @ts-nocheck
 
-import { WhatsAppBot } from '@satorijs/adapter-whatsapp'
+import { WhatsAppBusiness } from '@satorijs/adapter-whatsapp'
 
-export default WhatsAppBot
+export default WhatsAppBusiness
 export * from '@satorijs/adapter-whatsapp'
